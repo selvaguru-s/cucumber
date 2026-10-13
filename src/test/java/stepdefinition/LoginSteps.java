@@ -6,7 +6,9 @@ import java.time.Duration;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.cucumber.java.en.Given;
@@ -28,7 +30,14 @@ public class LoginSteps {
     @When("User enters username {string}")
     public void user_enters_username(String username) {
 
-        driver.findElement(By.name("email")).sendKeys(username);
+      //  driver.findElement(By.name("email")).sendKeys(username);
+        
+        WebElement usernameField = wait.until(
+        	    ExpectedConditions.visibilityOfElementLocated(
+        	        By.name("email")
+        	    )
+        	);
+        usernameField.sendKeys(username);
     }
 
     @When("User enters password {string}")

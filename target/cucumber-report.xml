@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="8.103" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-13T08:46:14.672777700Z">
-<testcase classname="Login functionality" name="Valid login" time="3.489">
+<testsuite name="Cucumber" time="6.336" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-13T09:04:20.304978200Z">
+<testcase classname="Login functionality" name="Valid login" time="2.267">
 <system-out><![CDATA[
 Given User is on the Instagram login page...................................passed
 When User enters username "your_username"...................................passed
@@ -9,7 +9,7 @@ And User clicks login button................................................pass
 Then User should be logged in successfully..................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login functionality" name="Valid login with different users - #1.1" time="2.243">
+<testcase classname="Login functionality" name="Valid login with different users - #1.1" time="2.026">
 <system-out><![CDATA[
 Given User is on the Instagram login page...................................passed
 When User enters username "your_username"...................................passed
@@ -18,7 +18,7 @@ And User clicks login button................................................pass
 Then User should be logged in successfully..................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login functionality" name="Valid login with different users - #1.2" time="2.255">
+<testcase classname="Login functionality" name="Valid login with different users - #1.2" time="1.953">
 <system-out><![CDATA[
 Given User is on the Instagram login page...................................passed
 When User enters username "test_user".......................................passed
