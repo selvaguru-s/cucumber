@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="8.103" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-13T08:46:14.672777700Z">
+<testcase classname="Login functionality" name="Valid login" time="3.489">
+<system-out><![CDATA[
+Given User is on the Instagram login page...................................passed
+When User enters username "your_username"...................................passed
+And User enters password "your_password"....................................passed
+And User clicks login button................................................passed
+Then User should be logged in successfully..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login functionality" name="Valid login with different users - #1.1" time="2.243">
+<system-out><![CDATA[
+Given User is on the Instagram login page...................................passed
+When User enters username "your_username"...................................passed
+And User enters password "your_password"....................................passed
+And User clicks login button................................................passed
+Then User should be logged in successfully..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login functionality" name="Valid login with different users - #1.2" time="2.255">
+<system-out><![CDATA[
+Given User is on the Instagram login page...................................passed
+When User enters username "test_user".......................................passed
+And User enters password "test_password"....................................passed
+And User clicks login button................................................passed
+Then User should be logged in successfully..................................passed
+]]></system-out>
+</testcase>
+</testsuite>
